@@ -1,0 +1,26 @@
+# Оглавление пособия. Тетради лежат в notebooks/ и пронумерованы по задачам.
+# Чтобы добавить задачу, положите тетрадь в notebooks/ и впишите её файл
+# в нужную часть ниже; заголовок в сайдбаре берётся из первой строки тетради.
+# Нумерация глав сквозная по всем частям.
+format: jb-book
+root: intro
+parts:
+  - caption: Часть I · Осциллятор с меняющейся частотой
+    numbered: true
+    chapters:
+      - file: notebooks/01_parametric_resonance_exponential
+      - file: notebooks/02_perturbation_theory_invariant
+      - file: notebooks/03_parametric_resonance_mathieu
+
+  - caption: Часть II · Сдвиги бетатронных частот
+    numbered: true
+    chapters:
+      - file: notebooks/04_betatron_tunes_rf_off
+      - file: notebooks/05_four_beam_compensation
+
+  - caption: Часть III · Нелинейные резонансы и ионные эффекты
+    numbered: true
+    chapters:
+      - file: notebooks/06_nonlinear_resonance_curve
+      - file: notebooks/07_ion_cloud_tune_shift
+      - file: notebooks/08_bunch_train_resonance_curves
